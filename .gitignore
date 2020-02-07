@@ -1,6 +1,9 @@
 # Created by https://www.gitignore.io/api/linux,macos,python
 # Edit at https://www.gitignore.io/?templates=linux,macos,python
 
+# PDB files
+*.pdb
+
 ### Linux ###
 *~
 
@@ -79,6 +82,13 @@ MANIFEST
 #  before PyInstaller builds the exe, so as to inject date/other infos into it.
 *.manifest
 *.spec
+
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# IPython
+profile_default/
+ipython_config.py
 
 # Installer logs
 pip-log.txt
